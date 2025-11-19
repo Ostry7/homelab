@@ -1,0 +1,21 @@
+# Dane użytkowników i pliki przechowywane przez Nextcloud
+/data/
+
+# Pliki konfiguracyjne wrażliwe
+/config/
+
+/*.log
+*.sqlite
+*.db
+
+# Tymczasowe pliki i cache
+/tmp/
+updater/
+
+# Pliki środowiska i sekretów
+.env
+.htaccess
+
+# Systemowe śmieci
+.DS_Store
+Thumbs.db
