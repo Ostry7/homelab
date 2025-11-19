@@ -19,7 +19,7 @@ services:
     links:
       - db
     volumes:
-      - nextcloud:/var/www/html
+      - /opt/homelab/nextcloud/nextcloud_data:/var/www/html
     environment:
       - MYSQL_PASSWORD=${MYSQL_PASSWORD}
       - MYSQL_DATABASE=${MYSQL_DATABASE}
