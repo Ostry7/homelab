@@ -23,7 +23,7 @@ services:
       KEYCLOAK_ADMIN_PASSWORD: ${KEYCLOAK_ADMIN_PASSWORD}
       KC_HOSTNAME_STRICT: "false"
       KC_HOSTNAME: ${KC_HOSTNAME}
-      KC_PROXY: edge
+      KC_PROXY: passthrough
       KEYCLOAK_FRONTEND_URL: https://auth.hrabowskalab.duckdns.org/
 
 
